@@ -10,7 +10,7 @@ class ToDoListController {
     # void loadList()
 }
 
-class ToDo_List{
+class ToDoList{
     # String title
     # List<Item> list
     # String getTitle()
@@ -34,6 +34,6 @@ class Item {
     # void markComplete()
 
 }
-ToDoListController <|--- ToDo_List
-ToDo_List <|---Item
+ToDoListController <|--- ToDoList
+ToDoList <|---Item
 @enduml
